@@ -1,0 +1,67 @@
+html,body{
+    height: 100%;
+    margin:0;
+    padding:0;
+}
+
+.back{
+	background-image: url('/offlinewikia/images/skyrim.jpg');
+	opacity: 0.9;
+	min-width: 100%;
+	min-height: 100%;
+	background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 0px !important;
+    margin: 0 auto; 
+    bottom: 0px;
+}
+.navbar {
+    -webkit-box-shadow: 0 8px 6px -6px #424242;
+    -moz-box-shadow: 0 8px 6px -6px #424242;
+    box-shadow: 0 8px 6px -6px #424242;
+
+    /* the rest of your styling */
+}
+
+.searchbox{
+    width: 50%;
+    height: 350px;
+    background: rgba(0,0,0,0.8);
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 5px;
+    margin: auto;
+}
+.content{
+    min-height: 300px;
+    background: rgba(0,0,0,0.8);
+}
+.topcon{
+    background-color: #000000;
+    min-height: 100px;
+    padding: 10px;
+}
+
+.searchmatch{
+    color: #FFFFFF;
+    font-weight: bolder;
+}
+.permalink-section{
+    white-space: pre-wrap; /* css-3 */    
+    white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+    white-space: -pre-wrap; /* Opera 4-6 */    
+    white-space: -o-pre-wrap; /* Opera 7 */    
+    word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+p{
+    line-height: 23px;
+    font-weight: normal !important;
+}

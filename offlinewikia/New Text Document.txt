@@ -1,0 +1,25 @@
+Your Account Details
+
+Your account is now active.
+Main Hosting Details
+Control panel username
+b18_21792688
+Control panel password	**********
+Control panel URL
+cpanel.byethost18.com
+MySQL username
+b18_21792688
+MySQL password
+**********
+MySQL hostname
+sql308.byethost18.com
+FTP username
+b18_21792688
+FTP password
+**********
+FTP host name	ftp.byethost18.com
+
+
+Your Website URL's
+Home page
+http://offlinewikia.byethost18.com
