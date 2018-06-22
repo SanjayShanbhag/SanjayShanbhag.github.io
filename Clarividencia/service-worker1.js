@@ -3,7 +3,6 @@
     
     var CACHE_NAME = 'version1';
     var urlsToCache = [
-        '.',
         'game.html',
         'CSS/style.css',
         'images/logo.png',
