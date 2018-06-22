@@ -4,6 +4,7 @@
        <meta charset="UTF-8">
        <title>Clarividencia</title>
        <link rel="stylesheet" type="text/css" href="CSS/style.css">
+       <link rel="manifest" href="manifest.json">
        <script src="https://unpkg.com/react@15/dist/react.min.js"></script>
        <script src="https://unpkg.com/react-dom@15/dist/react-dom.min.js"></script>
        <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.24.0/babel.js"></script>
@@ -11,6 +12,23 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+        <meta name="theme-color" content="#000000">
+
+        
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="application-name" content="Clarividencia">
+        <link rel="icon" sizes="192x192" href="images/logo.png">
+
+        
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-title" content="Clarividencia">
+        <link rel="apple-touch-icon" href="images/logo.png">
+
+        
+        <meta name="msapplication-TileColor" content="#000000">
+        <meta name="msapplication-TileImage" content="images/logo.png">
   </head>
   <body>
         <div id="root"></div>
@@ -73,8 +91,14 @@
                     this.chances = 0;
                 }
                 handleSubmit(event){
-                    console.log(this.randm);
+                    //console.log(this.randm);
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 88ee8bf5987a2677310310a7ede9dd9b02f7c94c
                     //alert('The Number Submitted Was: '+ this.state.value);
+>>>>>>> 88ee8bf5987a2677310310a7ede9dd9b02f7c94c
                     if(this.state.value < this.randm){
                         if((this.randm-this.state.value) <= 5){
                             this.setState({result: 'Ooh, Very Close!', imge: 'bigger.png'});    
@@ -147,7 +171,7 @@
                         </div>
                         <br/>
                         <form onSubmit = {this.handleSubmit}>
-                            <input className="form-control" value={this.state.value} onChange={this.handleChange} type="text"/>
+                            <input className="form-control" value={this.state.value} onChange={this.handleChange} type="number"/>
                             <br/>
                             <input className="btn btn-primary center-block" type="submit" value="Guess"/>
                         </form>
@@ -185,6 +209,16 @@
                 </div>
             </div> 
         </div>
-  
+    <script>
+        if('serviceWorker' in navigator){
+                navigator.serviceWorker.register('service-worker.js')
+                .then(function(registration) {
+                    console.log('Registration Completed: ', registration);
+                })
+                .catch(function(error) {
+                    console.log('Registration Failed: '. error);
+                });
+            }
+    </script>
   </body>
 </html>
