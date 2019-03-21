@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sanjay Shanbhag</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./CSS/lightbox.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="./CSS/style.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="./JS/lightbox-plus-jquery.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse" style="margin: 0; border: none; border-radius: 0;">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#" style="color: #FFFFFF; font-size: 20px;"><img src="images/logo.png" style="width: 30px; height: 30px;"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="index.html" style="color: #FFFFFF; font-size: 17px;"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                  <li><a href="interactiveResume/resume.html" style="color: #FFFFFF; font-size: 17px;"><span class="glyphicon glyphicon-certificate"></span> Interactive Resume</a></li>
+                  <li><a href="index.html#about" style="color: #FFFFFF; font-size: 17px;"><span class="glyphicon glyphicon-user"></span> About</a></li>
+                  <li><a href="index.html#projects" style="color: #FFFFFF; font-size: 17px;"><span class="glyphicon glyphicon-wrench"></span> Projects</a></li>
+                  <li><a href="index.html#Blog" style="color: #FFFFFF; font-size: 17px;"><span class="glyphicon glyphicon-pencil"></span> Blog</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+      <br><br>
+      <div class="center-block article">
+        <h2 style="color: #FAFAFA;">Progressive Web Applications</h2>
+        <br>
+        <p>If you have skimmed through my project descriptions, you would have noticed "PWA's" a lot. So, I thought it would be better if I made it clear what exactly a PWA is.</p>
+        <p>Put simply, a PWA is the new age web applications. I know we are used to thinking that to access a website or a web application, we always need an internet connection. This is exactly the notion that PWA's dismiss. With PWA's you don't always need an internet connection to work with the web application.</p>
+        <p>PWA's make use of the latest web technologies to provide offline access to an online application. One of the main things that makes a PWA a PWA is Service Workers. These are special scripts that acts as a buffer between the server and the application. Instead of letting the browser handle all the requests, we make the service worker handle it. That gives us developers a lot of power when developing awesome applications.</p>
+        <p>We use the Cache API and the Fetch API to cache the application shell and then respectively fetch it respectively. We use these API's whilst scripting the Service Workers to perform intelligent caching and implement one of the many fetch strategies.</p>
+        <p>PWA's are extremely fast since they don't make a request to the server everytime. For example, the application shell which consists of the basic theme and looks of the application is always cached so that a request to server is not required. It can be simply be loaded from the Cache.</p>
+        <p>But enough technical jargon for the moment. Why is it important? The most important point here is: Reach. PWA's reach a lot more people than a native app can. Every step to download an application reduces 20% of users. And since a PWA is web application at the end of the day, it will also be indexed by search engines and you can use them to boost your installs.</p>
+        <br>
+        <img src="images/pwaVsNative.png" style="width: 100%; height: 400px;" class="center-block">
+        <br>
+        <p>I think that this image does plenty of talking on my behalf. We can clearly see how PWA's have an edge over the native applications.</p>
+        <p>And besides all of this, PWA's are extremely low on data. To put things in perspective, a normal generic native application would cost your device atleast 10MB. Compare that to 500-1000KB of a PWA and you begin to see the difference.</p>
+        <p>Another one of the main advantages of PWA's is that the user won't have to explicitly update it. It automatically updates just as a website eould have. But in native the user would have had to go to the app stores and download the application update. Also, you don't have to install the PWA to use it. You can just keep using it just as you would with a website. The user can install it if he/she chooses and is comfortable with the application. This doesn't f user to install the application without using it. This goes a long way in buliding trust in the user.</p>
+        <p>If you want to check some of the cool PWA's, check out this store: <a href="https://outweb.io" target=_blank style="text-decoration: none;">OutWeb</a></p>
+        <p>As an ending note I'll leave this image that summarises the key features of a PWA.</p>
+        <br>
+        <img src="images/pwafeatures.jpg" style="width: 100%; height: 400px;" class="center-block">
+      </div>
+      <br><br>
+      <div id="Blog">
+        <div data-aos="fade-right" class="down" style="text-align: center;">
+          <br><br>
+          <h2>Blog</h2>
+          <hr style="border-width: 3px; margin-top: 0;" width="40">
+        </div>
+
+        <div class="row">
+          <div class="col-sm-3 col-lg-3 col-md-3" style="margin-bottom: 5px;">
+            <div data-aos="zoom-in-down" class="blogCard">
+              <a href="./soccerapi.html" target="_blank">
+              <img src="./images/api1.png" alt="Soccer API" style="width: 100%; height: 150px;">
+              <br>
+              <div class="con">
+                <h3>Soccer API</h3>
+                <hr align="left">
+                <p>Soccer API is a RESTful Application Programming Interface to expose soccer data. What do I get? You get a host of things
+                  from, matches to league standings to teams to betting statistics and odds. What's more...</p>
+              </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-sm-3 col-lg-3 col-md-3" style="margin-bottom: 5px;">
+            <div data-aos="zoom-in-down" class="blogCard">
+              <a href="./artymys.html" target="_blank">
+              <img src="./images/artymys1.png" alt="Artymys" style="width: 100%; height: 150px;">
+              <br>
+              <div class="con">
+                <h3>Artymys</h3>
+                <hr align="left">
+                <p>Artymys is my attempt at creating a full fledged social media website. This was back when I was
+                  first introduced to Web Application Development. I just wanted to build something and get my hands dirty in the code right away!...</p>
+              </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-sm-3 col-lg-3 col-md-3" style="margin-bottom: 5px;">
+            <div data-aos="zoom-in-down" class="blogCard">
+              <a href="./offlinewikia.html" target="_blank">
+              <img src="./images/wikia1.png" alt="Offline Wikia" style="width: 100%; height: 150px;">
+              <br>
+              <div class="con">
+                <h3>Offline Wikia</h3>
+                <hr align="left">
+                <p>Offline Wikia is a Progressive Web Application. If you visit the official Wikia website, you will observe that some of the articles can be very long. So long infact that
+                   they are novellas in their own right. Unless you have...</p>
+              </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-sm-3 col-lg-3 col-md-3" style="margin-bottom: 5px;">
+            <div data-aos="zoom-in-down" class="blogCard">
+              <a href="./notepad3.html" target="_blank">
+              <img src="./images/notepad31.png" alt="Notepad3" style="width: 100%; height: 150px;">
+              <br>
+              <div class="con">
+                <h3>Notepad3</h3>
+                <hr align="left">
+                <p>Notepad3 is a note taking application. It is a PWA and hence it works both offline and online.This application requires that you create an account and login to create
+                   private note. However, you can easily...</p>
+              </div>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+        <br><br>
+        <div class="row">
+          <div class="col-sm-3 col-md-3 col-lg-3" style="margin-bottom: 5px;">
+            <div data-aos="zoom-in-up" class="blogCard">
+              <a href="./apod.html" target="_blank">
+              <img src="./images/apod2.png" alt="APOD" style="width: 100%; height: 150px;">
+              <br>
+              <div class="con">
+                <h3>Astronomy Picture of the Day</h3>
+                <hr align="left">
+                <p>APOD is a Progressive Web Application. The National Aeronautics and Space Administration or better known as NASA, the branch of the United
+                  States responsible for civilian space program, is...</p>
+              </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-sm-3 col-md-3 col-lg-3" style="margin-bottom: 5px;">
+            <div data-aos="zoom-in-up" class="blogCard">
+              <a href="./clarividencia.html" target="_blank">
+              <img src="./images/pic47.png" alt="Clarividencia" style="width: 100%; height: 150px;">
+              <br>
+              <div class="con">
+                <h3>Clarividencia</h3>
+                <hr align="left">
+                <p>Clarividencia is a ReactJS based application. It is a very simple guessing game. I built it right after I learned ReactJS, to get a hang of it.
+                The game comes with three difficulty levels: Easy, Medium & Hard. Based on the difficulty level...</p>
+              </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-sm-3 col-md-3 col-lg-3" style="margin-bottom: 5px;">
+            <div data-aos="zoom-in-up" class="blogCard">
+              <a href="./pwa.html" target="_blank">
+              <img src="./images/pwa.jpg" alt="PWA" style="width: 100%; height: 150px;">
+              <br>
+              <div class="con">
+                <h3>Progressive Web Application</h3>
+                <hr align="left">
+                <p>If you have skimmed through my project descriptions, you would have noticed "PWA's" a lot. So, I thought it would be better
+                  if I made it clear what exactly a PWA is. Put simply, a PWA is the new age web...</p>
+              </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+    </div>
+    <div class="container-fluid" style="padding: 0 !important;">
+      <div class="footer">
+        <p style="text-align: center; color: #616161;">Sanjay Shanbhag <span style="color: #0288d1;">&copy;2019</span></p>
+      </div>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
